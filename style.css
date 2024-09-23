@@ -1,0 +1,96 @@
+/* div{
+   
+     /* transition-property: all;  */
+    /*  */
+    /* inset-block-start:100px;
+    inset-inline-start:100px;     */
+     /* transition-duration: 0s; 
+    transition-timing-function: steps(1); 
+     transition-delay: 1s; */
+     /* transform: skew(45deg); */
+     /* transition: all 2s ease-in;         */
+     /*  */
+
+/* } */
+ /* div:hover {
+    ;  
+     position: absolute;
+     /* { transform: rotate(90deg);  
+     ; 
+     transform: scale(1,2);  */
+   /* transform:rotate(90deg);
+   transform:translate(30px, 30px) */
+/* background-color: brown;
+color: white;
+font-size: 50px; */
+/* } */ 
+/*  */
+/*   
+div{
+    block-size: 200px;
+    inline-size: 200px;
+    position: absolute;
+    inset-block-start:100px;
+    inset-inline-start:100px;
+    background-color: rgb(6, 24, 18);
+    border: 2px solid black;
+    animation-name: colorAnimate;
+    animation-duration:3s ;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    text-align: center;
+    animation-direction: alternate-reverse;
+   
+}
+
+div:hover{
+    transition-property: all
+    
+    div : active{
+        background-color: pink;
+    
+    }
+}
+@keyframes colorAnimate {
+    from{
+        inset-inline-start: 0px;
+         background-color : aquamarine; 
+         color: antiquewhite;
+         font-size: 100px;
+        }
+     to  { 
+        inset-inline-start:400px;
+        background-color: red; 
+        color: blueviolet;
+        font-size: px50;
+    }
+}             */
+      
+.loader{
+    
+   
+    inline-size: 200px;
+    block-size: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(237, 237, 237);
+    border-block-start: 20px solid rgb(9, 9, 10);
+    animation-name:spinAnimate   ;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction : normal;
+    flex-direction: column;
+   
+    
+}   
+@keyframes spinAnimate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}                                    
